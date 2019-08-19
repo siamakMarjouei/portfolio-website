@@ -169,19 +169,19 @@ button:focus,
   grid-row: 1/3;
 }
 @media all and (max-width: 500px) {
-  .project-list,.berlin-image{
+  .project-list, .berlin-image{
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
-  .project-list,.berlin-image{
+  .project-list, .berlin-image{
     -ms-grid-columns: 1fr 15px 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
 @media all and (max-width: 750px) {
-  .project-list,.berlin-image {
+  .project-list, .berlin-image {
     grid-gap: 10px;
   }
   .project-list__item:last-child {
