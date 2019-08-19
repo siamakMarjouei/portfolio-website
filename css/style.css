@@ -151,12 +151,12 @@ button:focus,
     }
   }
   @media all and (min-width: 500px) and (max-width: 750px){
-    .project-list {
+    .project-list{
       grid-template-columns: 1fr 1fr;
     }
   }
   @media all and (max-width: 750px) {
-    .project-list {
+    .project-list{
       grid-gap: 10px;
     }
     .project-list__item:last-child {
@@ -167,6 +167,7 @@ button:focus,
       font-size: 22px;
     }
   }
+  
   @keyframes color-change {
     0% {
       fill: #edc655;
