@@ -79,10 +79,7 @@ button:focus,
     cursor: pointer;
     opacity: 0.8;
 }
-.secondary_button{
-    background-color:var(--button-secondary-color);
-    color: var(--text-color);
-}
+
 .navigation-list__item--active{
     text-decoration: none;
 }

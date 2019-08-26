@@ -84,10 +84,6 @@ button:focus,
   cursor: pointer;
   opacity: 0.8;
 }
-.secondary_button{
-  background-color:rgb(4, 110, 4);
-  color: white;
-}
 .navigation-list__item--active{
   text-decoration: none;
 }
